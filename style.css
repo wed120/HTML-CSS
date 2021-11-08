@@ -1,5 +1,23 @@
 * {
+	margin: 0;
+	padding: 0;
 	font-family: sans-serif;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.container {
+	width: 1140px; 
+	margin: 0 auto; 
+}
+
+.card {
+	width: 359px;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
 }
 
 .text { 
@@ -8,7 +26,12 @@
 	color: #1F3F68;
 }
 
+.text_under {
+	width: 425px;
+}
+
 .title {
+	width: 510px;
 	font-size: 64px; 
 	color: #1F3F68;
 }
@@ -19,9 +42,20 @@
 	text-align: center;
 }
 
+.title_DigitalEra {
+	display: flex;
+	justify-content: space-between;
+}
+
 .title_h3 {
 	font-size: 36px; 
 	text-align: center;
+}
+
+.footer_title_h3 {
+	font-size: 36px; 
+	text-align: center;
+	width: 340px;
 }
 
 .title_h4 {
@@ -35,6 +69,24 @@
 	box-sizing: border-box; 
 	border-radius: 10px; 
 	opacity: 0.4;
+}
+
+.info {
+	width: 495px;
+}
+
+.contacts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contactUs {
+	display: flex;
+	justify-content: space-around;
+}
+
+.map {
+	width: 100%;
 }
 
 .button_form {
