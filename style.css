@@ -1,18 +1,26 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: Roboto, sans-serif;
+	font-style: normal;
 	list-style-type: none;
 	text-decoration: none;
 }
 
 .container {
-	width: 1140px; 
+	width: auto; 
 	margin: 0 auto; 
 }
 
-.card {
-	width: 359px;
+.main_page_bg {
+	background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.main_page {
+	height: 768px;
+	background-image: url(img/main_img.svg);
+	background-position: top 158.84px left 630.15px;
+	background-repeat: no-repeat;
 }
 
 .menu {
@@ -20,19 +28,140 @@
 	justify-content: space-between;
 }
 
-.text { 
-	font-size: 16px; 
-	line-height: 26px;
-	color: #1F3F68;
+.main_button {
+	display: block;
+	margin-top: 42px;
+	margin-left: 113px;
 }
 
-.text_under {
-	width: 425px;
+.contacts_button {
+	display: block;
+	margin-top: 39px;
+	margin-right: 113px;
 }
 
 .title {
 	width: 510px;
 	font-size: 64px; 
+	color: #1F3F68;
+	font-weight: 300;
+	line-height: 74px;
+	letter-spacing: 0.04em;
+	margin-top: 115px;
+	margin-left: 113px;
+}
+
+.text_under {
+	width: 425px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	color: #1F3F68;
+	opacity: 0.6;
+	margin-top: 32px;
+	margin-left: 114px;
+}
+
+.button_project {
+	display: flex;
+	width: 220px;
+	height: 56px;
+	background: #5A98D0;
+	box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+	border-radius: 10px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+	justify-content: center;
+	align-items: center;
+	margin-top: 71px;
+	margin-left: 114px;
+}
+
+.title_wwd {
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 46px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #000000;
+	margin-top: 64px;
+}
+
+.title_DigitalEra {
+	margin: 64px 113px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+	width: 359px;
+	height: 480px;
+	background: #FFFFFF;
+	box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+	border-radius: 10px;
+}
+
+.buisiness_img {
+	margin-top: 43.9px;
+	margin-left: 69.91px;
+}
+
+.technology_img {
+	margin-top: 43.61px;
+	margin-left: 116.33px;
+}
+
+.digital_img {
+	margin-top: 48.52px;
+	margin-left: 94.47px;
+}
+
+.title_card {
+	width: 295px;
+	height: 56px;
+	margin-top: 50px;
+	margin-left: 32px;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+	color: #1F3F68;
+	text-align: start;
+
+}
+
+.text_card {
+	width: 295px;
+	height: 95px;
+	margin-top: 15px;
+	margin-left: 32px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	color: #1F3F68;
+	opacity: 0.6;
+}
+
+.button_lernMore {
+	display: block;
+	margin-top: 18px;
+	margin-left: 32px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+	color: #5A98D0;
+}
+
+.text { 
+	font-size: 16px; 
+	line-height: 26px;
 	color: #1F3F68;
 }
 
@@ -42,9 +171,75 @@
 	text-align: center;
 }
 
-.title_DigitalEra {
-	display: flex;
-	justify-content: space-between;
+.Project {
+	align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_Project {
+	font-size: 36px; 
+	font-weight: 300;
+	line-height: 46px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #000000;
+	text-align: center;
+	margin-top: 64px;
+}
+
+.text_Project {
+	height: 52px;
+	width: 750px;
+	margin-top: 32px;
+	font-weight: normal;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #222222;
+	font-size: 16px;
+	align-items: center;
+}
+
+.Project_img {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.SmartHomeInstallation {
+	margin-top: 64px;
+	margin-left: 678px;
+	position: absolute;
+	font-weight: normal;
+	line-height: 46px;
+	font-size: 32px;
+	text-align: right;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+}
+
+.SparkliteApp {
+	font-size: 28px;
+	line-height: 46px;
+	font-weight: normal;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	position: absolute;
+	margin-top: 32px;
+	padding-left: 32px;
+}
+
+
+.CarRapetitionApp {
+	font-size: 28px;
+	line-height: 46px;
+	font-weight: normal;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	position: absolute;
+	margin-top: 32px;
+	padding-left: 64px;
 }
 
 .title_h3 {
@@ -53,9 +248,48 @@
 }
 
 .footer_title_h3 {
-	font-size: 36px; 
-	text-align: center;
 	width: 340px;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 46px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 91px;
+}
+
+.footer_text {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	opacity: 0.6;
+	padding-top: 32px;
+}
+
+.footer_reserved {
+	font-weight: normal;
+	line-height: 26px;
+	font-size: 16px;
+	color: #FFFFFF;
+	letter-spacing: 0.05em;
+	opacity: 0.4;
+	margin-left: 113px;
+	margin-top: 64px;
+}
+
+.footer_button {
+	width: 236.63px;
+	height: 56px;
+	background: #5A98D0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+	margin-top: 165px;
+	margin-left: 407.23px;
 }
 
 .title_h4 {
@@ -73,11 +307,18 @@
 
 .info {
 	width: 495px;
+	margin-left: 113px;
 }
 
 .contacts {
 	display: flex;
 	justify-content: space-between;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	margin-top: 64px;
 }
 
 .contactUs {
@@ -99,4 +340,10 @@
 	text-align: center; 
 	color: #FFFFFF; 
 	text-transform: uppercase;
+}
+
+footer {
+	margin-top: 112px;
+	height: 657px;
+	background: #316099;
 }
